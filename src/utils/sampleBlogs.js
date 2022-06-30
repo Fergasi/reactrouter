@@ -11,7 +11,7 @@ const allBlogPosts = [
     title: "ducimus",
     text: "Placeat ea et fuga. Qui itaque quibusdam nam. Maxime nobis quam. Et laudantium sunt incidunt reiciendis.\n \rEarum aut sed omnis autem aliquam architecto corporis sint. Nostrum cumque voluptatem aperiam alias similique. Tenetur et esse omnis praesentium ipsum alias. Impedit rerum qui quia quaerat architecto mollitia est autem. Qui blanditiis earum et qui dolorum reprehenderit. Debitis est temporibus.\n \rEt nam sed. Corporis ut rerum. Ut qui dolore est dolorem ex.",
     author: "Luke Rogahn PhD",
-    id: 12,
+    id: 2,
   },
   {
     createdAt: "2022-03-21T20:09:32.298Z",

@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import BlogPost from "./components/BlogPost";
 import AllBlogs from "./components/AllBlogs";
 import { allBlogPosts } from "./utils/sampleBlogs";
+import SubmitBlog from "./pages/SubmitBlog";
 
 function App() {
   return (
@@ -14,12 +15,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />}>
-            <Route path="" element={<AllBlogs allBlogPosts={allBlogPosts} />} />
+            <Route index element={<AllBlogs allBlogPosts={allBlogPosts} />} />
             <Route
               path=":blogId"
               element={<BlogPost allBlogPosts={allBlogPosts} />}
             />
           </Route>
+          <Route
+            path="/submit-blog"
+            element={<SubmitBlog allBlogPosts={allBlogPosts} />}
+          />
         </Routes>
       </header>
     </div>
